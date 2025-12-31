@@ -66,7 +66,7 @@ export default function ELibrary() {
     setFilteredBooks(filtered);
   };
 
-  const categories = ['All', ...new Set(books.map((book) => book.category))];
+  const categories = ['All', ...Array.from(new Set(books.map((book) => book.category)))];
 
   return (
     <>
