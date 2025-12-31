@@ -54,7 +54,7 @@ export default function HowItWorks() {
         <title>How It Works | E-Library System</title>
         <meta
           name="description"
-          content<arg_value><arg_value>Learn how to use our E-Library System to access books, check availability, and request print services.
+          content="Learn how to use our E-Library System to access books, check availability, and request print services."
         />
       </Head>
 
